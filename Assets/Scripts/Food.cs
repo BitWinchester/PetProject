@@ -4,7 +4,7 @@ using UnityEngine;
 
 abstract class Food : MonoBehaviour {
 
-
+    int NutritionalValue;
 
 
 }
