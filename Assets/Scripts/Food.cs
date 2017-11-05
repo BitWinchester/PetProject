@@ -2,9 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-abstract class Food : MonoBehaviour {
+public class Food : MonoBehaviour {
 
-    int NutritionalValue;
+
+    static public int[] TotalFoodPieces;
+    public int nutritionalValue = 100;
+
+    public Food()
+    {
+
+    }
+
+
+   
+
+    
 
 
 }
